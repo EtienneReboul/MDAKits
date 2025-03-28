@@ -1,0 +1,48 @@
+.. _openmm-mdanalysis-reporter:
+
+************************************************
+openmm-mdanalysis-reporter
+************************************************
+
+| 🖋️ **Authors**: `openmm-mdanalysis-reporter authors`_
+| 🏠 **Project home:** https://github.com/sef43/openmm-mdanalysis-reporter
+| 📖 **Documentation:** https://github.com/sef43/openmm-mdanalysis-reporter/blob/main/README.md
+| ⚖️ **License:** MIT
+| 🔑 **Keywords:** OpenMM, Reporters
+| 🧪 **Tests (latest):** |openmm-mdanalysis-reporter_latest| 
+| 🧪 **Tests (develop):** |openmm-mdanalysis-reporter_develop| 
+| **Description:**
+| *MDAnalysis based reporters for OpenMM*
+
+
+
+Installation instructions
+=========================
+
+The latest version of openmm-mdanalysis-reporter can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c jaimergp/label/unsupported-cudatoolkit-shim -c conda-forge --strict-channel-priority openmm
+    pip install openmm-mdanalysis-reporter
+
+The source code of openmm-mdanalysis-reporter can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c jaimergp/label/unsupported-cudatoolkit-shim -c conda-forge --strict-channel-priority openmm
+    git clone https://github.com/sef43/openmm-mdanalysis-reporter.git
+    cd openmm-mdanalysis-reporter
+    pip install .
+
+.. _`openmm-mdanalysis-reporter authors`:
+   https://github.com/sef43/openmm-mdanalysis-reporter/blob/main/AUTHORS.md
+
+.. |openmm-mdanalysis-reporter_latest| image:: https://img.shields.io/badge/latest-passed-green.svg
+   :alt: openmm-mdanalysis-reporter develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
+.. |openmm-mdanalysis-reporter_develop| image:: https://img.shields.io/badge/develop-passed-green.svg
+   :alt: openmm-mdanalysis-reporter develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+

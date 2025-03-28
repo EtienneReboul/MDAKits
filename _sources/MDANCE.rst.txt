@@ -1,0 +1,48 @@
+.. _MDANCE:
+
+************************************************
+MDANCE
+************************************************
+
+| 🖋️ **Authors**: `MDANCE authors`_
+| 🏠 **Project home:** https://github.com/mqcomplab/MDANCE
+| 📖 **Documentation:** https://mdance.readthedocs.io
+| ⚖️ **License:** MIT
+| 🔑 **Keywords:** clustering, machine-learning, algorithms, molecular-dynamics, protein-refinement
+| 🚀 **Development status:** Production/Stable
+| 📑 **Publications:**
+|    * https://doi.org/10.1021/acs.jctc.4c00308
+|    * https://doi.org/10.1021/acs.jctc.4c00362
+| 🧪 **Tests (latest):** |MDANCE_latest| 
+| 🧪 **Tests (develop):** |MDANCE_develop| 
+| **Description:**
+| *flexible n-ary clustering package for Molecular Dynamics trajectories.*
+
+
+
+Installation instructions
+=========================
+
+The latest version of MDANCE can be installed using the following:
+
+.. code-block:: bash
+
+    pip install mdance
+
+The source code of MDANCE can be installed using the following:
+
+.. code-block:: bash
+
+    pip install git+https://github.com/mqcomplab/MDANCE@main
+
+.. _`MDANCE authors`:
+   https://github.com/mqcomplab/MDANCE/blob/main/AUTHORS.md
+
+.. |MDANCE_latest| image:: https://img.shields.io/badge/latest-failed-red.svg
+   :alt: MDANCE develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
+.. |MDANCE_develop| image:: https://img.shields.io/badge/develop-passed-green.svg
+   :alt: MDANCE develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+

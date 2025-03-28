@@ -1,0 +1,48 @@
+.. _PathSimAnalysis:
+
+************************************************
+PathSimAnalysis
+************************************************
+
+| 🖋️ **Authors**: `PathSimAnalysis authors`_
+| 🏠 **Project home:** https://github.com/MDAnalysis/PathSimAnalysis/
+| 📖 **Documentation:** https://mdanalysis.org/PathSimAnalysis
+| ⚖️ **License:** GPL-2.0-or-later
+| 🔑 **Keywords:** similarity, paths, metrics
+| 🚀 **Development status:** Production/Stable
+| 📜 **Changelog:** https://github.com/MDAnalysis/PathSimAnalysis/blob/main/CHANGELOG.md
+| 📑 **Publications:**
+|    * https://doi.org/10.1371/journal.pcbi.1004568
+| 🧪 **Tests (latest):** |PathSimAnalysis_latest| 
+| 🧪 **Tests (develop):** |PathSimAnalysis_develop| 
+| **Description:**
+| *An MDAKit that calculates the geometric similarity of molecular dynamics trajectories using path metrics such as the Hausdorff or Fréchet distances.*
+
+
+
+Installation instructions
+=========================
+
+The latest version of PathSimAnalysis can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c conda-forge pathsimanalysis
+
+The source code of PathSimAnalysis can be installed using the following:
+
+.. code-block:: bash
+
+    pip install git+https://github.com/MDAnalysis/PathSimAnalysis@main
+
+.. _`PathSimAnalysis authors`:
+   https://github.com/MDAnalysis/PathSimAnalysis/blob/main/AUTHORS.md
+
+.. |PathSimAnalysis_latest| image:: https://img.shields.io/badge/latest-passed-green.svg
+   :alt: PathSimAnalysis develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
+.. |PathSimAnalysis_develop| image:: https://img.shields.io/badge/develop-passed-green.svg
+   :alt: PathSimAnalysis develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+

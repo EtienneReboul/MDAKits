@@ -1,0 +1,44 @@
+.. _solvation-analysis:
+
+************************************************
+solvation-analysis
+************************************************
+
+| 🖋️ **Authors**: orionarcher, hmacdope, laurlee, IAlibay
+| 🏠 **Project home:** https://github.com/MDAnalysis/solvation-analysis
+| 📖 **Documentation:** https://solvation-analysis.readthedocs.io/en/latest/
+| ⚖️ **License:** GPL-2.0-or-later
+| 🔑 **Keywords:** chemistry, electrolytes, solvation structure
+| 🚀 **Development status:** Beta
+| 📑 **Publications:**
+|    * https://doi.org/10.21105/joss.05183
+| 🧪 **Tests (latest):** |solvation-analysis_latest| 
+| 🧪 **Tests (develop):** |solvation-analysis_develop| 
+| **Description:**
+| *A comprehensive tool for analyzing liquid solvation structure.*
+
+
+
+Installation instructions
+=========================
+
+The latest version of solvation-analysis can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c conda-forge solvation_analysis
+
+The source code of solvation-analysis can be installed using the following:
+
+.. code-block:: bash
+
+    pip install git+https://github.com/MDAnalysis/solvation-analysis@main
+
+.. |solvation-analysis_latest| image:: https://img.shields.io/badge/latest-passed-green.svg
+   :alt: solvation-analysis develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
+.. |solvation-analysis_develop| image:: https://img.shields.io/badge/develop-failed-red.svg
+   :alt: solvation-analysis develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+

@@ -1,0 +1,47 @@
+.. _lipyds:
+
+************************************************
+lipyds
+************************************************
+
+| 🖋️ **Authors**: lilyminium
+| 🏠 **Project home:** https://github.com/lilyminium/lipyds
+| 📖 **Documentation:** https://lipyds.readthedocs.io/en/latest/
+| ⚖️ **License:** LGPL-3.0
+| 🔑 **Keywords:** lipids, membranes
+| 🚀 **Development status:** Beta
+| 📑 **Publications:**
+|    * https://doi.org/10.1016/j.bbadva.2021.100010
+| 🧪 **Tests (latest):** |lipyds_latest| 
+| 🧪 **Tests (develop):** |lipyds_develop| 
+| **Description:**
+| *A toolkit for leaflet-based membrane analysis.*
+
+
+
+Installation instructions
+=========================
+
+The latest version of lipyds can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c conda-forge lipyds
+
+The source code of lipyds can be installed using the following:
+
+.. code-block:: bash
+
+    mamba install -c conda-forge pyvista cython matplotlib nptyping "numpy>=1.20.0" pandas "scikit-learn>=0.21.0" scipy
+    git clone https://github.com/lilyminium/lipyds.git
+    cd lipyds
+    python setup.py install
+
+.. |lipyds_latest| image:: https://img.shields.io/badge/latest-passed-green.svg
+   :alt: lipyds develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
+.. |lipyds_develop| image:: https://img.shields.io/badge/develop-passed-green.svg
+   :alt: lipyds develop CI status
+   :target: https://github.com/MDAnalysis/MDAKits/actions
+
